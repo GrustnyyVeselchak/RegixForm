@@ -69,7 +69,7 @@ function App() {
             onChange={(e) => setDate(e.target.value)} 
           />
         </div>
-        {errors.dob && <p className="error">{errors.date}</p>}
+        {errors.date && <p className="error">{errors.date}</p>}
 
         <button className="button" type="submit">Отправить</button>
       </form>
