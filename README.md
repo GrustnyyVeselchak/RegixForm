@@ -8,7 +8,11 @@ Firstly, you should change your directory:
 
 ### `cd ./my-app`
 
-In the project directory, you can run:
+In the project directory, you should run for download dependenses:
+
+### `yarn install`
+
+After, you should run:
 
 ### `yarn start`
 
